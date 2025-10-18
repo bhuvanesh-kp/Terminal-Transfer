@@ -13,8 +13,8 @@ import java.util.HashMap;
 public class FileSharer {
     HashMap<Integer, String> availableFiles;
 
-    public FileSharer(HashMap<Integer, String> availableFiles) {
-        this.availableFiles = availableFiles;
+    public FileSharer() {
+        this.availableFiles = new  HashMap<>();
     }
 
     public int offerFile(String filePath){
